@@ -1,0 +1,50 @@
+.showcasecontainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.containersection {
+  width: 80%;
+  margin: auto;
+}
+.meetingName {
+  font-size: 1.2vmax;
+}
+.leftsection {
+  width: 70%;
+}
+.rightsection {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+}
+.meetingheading{
+    font-size: 1.5vmax;
+}
+.meeting,.contentmeeting{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meetingName{
+    font-size: 1vmax;
+    font-weight: 600;
+}
+.meetingContent{
+    font-size: 1vmax;
+    font-weight: 300;
+}
+
+.groupname{
+    font-size: 1vmax;
+}
+.seperator{
+    width: 2px;
+    height: 100vh;
+    background-color: grey;
+    margin-right: 1vmax;
+}

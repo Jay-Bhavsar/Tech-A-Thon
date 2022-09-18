@@ -1,0 +1,135 @@
+.homepage {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    120deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(36, 36, 61, 1) 40%,
+    rgba(83, 154, 227, 1) 100%
+  );
+}
+.homepage::after {
+  content: "";
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  clip-path: polygon(100% 52%, 0% 100%, 100% 100%);
+  max-width: 100%;
+}
+.flexbox {
+  width: 80%;
+  margin: auto;
+}
+.welcomeTitle1 {
+  color: white;
+  font-size: 4vmax;
+}
+.welcomeTitle2 {
+  color: white;
+  font-size: 2vmax;
+}
+.welcomeTitle1 > span,
+.welcomeTitle2 > span {
+  color: crimson;
+}
+.about {
+  width: 80%;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionTitle {
+  font-size: 3.5vmax;
+  text-transform: uppercase;
+  letter-spacing: 0.2vmax;
+}
+.aboutcontents {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2vmax;
+  flex-wrap: wrap;
+}
+.aboutcontent {
+  width: 100%;
+  margin: auto;
+  padding: 1vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  width: 10vmax;
+}
+.aboutimg {
+  width: 100%;
+}
+.abouttitle {
+  font-size: 1.5vmax;
+}
+.aboutpara {
+  font-size: 1vmax;
+}
+.meet {
+  margin-top: 3vmax;
+}
+.meetlink {
+  text-decoration: none;
+  color: white;
+  padding: 0.5vmax;
+  border: 2px solid white;
+  font-size: .8vmax;
+  transition: 1s all ease;
+}
+.meetlink:hover {
+  color: crimson;
+  border: 2px solid crimson;
+  font-weight: 500;
+}
+.workFlow {
+  width: 80%;
+  min-height: 100vh;
+  margin-top: 10vmax;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.workflow {
+  width: 80%;
+}
+.sectionTitle2{
+  font-size: 2vmax;
+  text-transform: uppercase;
+}
+.footertext{
+  font-size: 1.5vmax;
+  color: white;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vmax 1vmax;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    120deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(36, 36, 61, 1) 40%,
+    rgba(83, 154, 227, 1) 100%
+  );
+}

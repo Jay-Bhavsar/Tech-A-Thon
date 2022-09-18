@@ -1,0 +1,39 @@
+.schmeet{
+    font-size: 3vmax;
+    margin-top: 2vmax;
+}
+.flexcontainer{
+    width: 80%;
+    margin: auto;
+}
+.boxxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 2vmax;
+    width: 30%; 
+    margin: 1vmax auto ;
+    box-shadow: 0 0 10px 0 grey;
+}
+.meetiname{
+    font-size:2.2vmax;
+    text-transform: uppercase;
+
+}
+.schmeetbtn{
+    text-decoration: none;
+    width: 50%;
+    color: white;
+    padding: .5vmax;
+    background-color: rgb(90, 90, 235);
+}
+.schmeetbtn:hover{
+    color: rgb(90, 90, 235);
+    background-color: white;
+    border: 1px solid crimson;
+}

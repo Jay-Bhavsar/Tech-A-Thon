@@ -1,0 +1,33 @@
+@import url(https://cdn.syncfusion.com/ej2/material.css);
+.App{
+    text-align: center;
+}
+.schedule{
+    font-size: 1vmax;
+}
+.inputtext{
+    font-size: 1vmax;
+    padding: .5vmax ;
+    border: 2px solid grey;
+    font-weight: 500;
+    width: 90%;
+}
+.fields{
+    display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+width: 100%;
+}
+.btns{
+    padding: 0.5vmax;
+    background-color: rgb(80, 80, 232);
+    color: white;
+    width: 30%;
+    transition: all 1s ease;
+}
+.btns:hover{
+    background: white;
+    color: rgb(80, 80, 232);
+    border: 2px solid rgb(80, 80, 232);
+}
